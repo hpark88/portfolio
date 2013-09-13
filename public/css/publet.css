@@ -1,0 +1,68 @@
+body {
+  background-color:#ecd0ad;
+}
+
+a {
+  color: #4b3e2a;
+}
+
+p {
+  font-family: Arial;
+  font-size: 13px;
+  color: #8c725b;
+}
+
+h1 {
+  font-family: Sans-serif;
+  color: #574840;
+  font-size: 18px;
+}
+
+ul {
+  font-family: Arial;
+}
+
+li {
+  font-family: Arial;
+   font-size: 13px;
+  color: #8c725b;
+}
+.sidenav {
+  position: relative;
+  border-radius: 5px;
+  color: #806a4b;
+  float: left;
+  height: 800px;
+  width: 150px;
+  background-color:#ffffff;
+  margin: 0 10px 0 0;
+  font-family: Arial;
+  font-size: 15px;
+}
+
+.sidenav img {
+  position: relative;
+  width: 150px;
+  margin-top: 16px;
+}
+.sidenavtwo {
+  width: 90%;
+  position: absolute;
+  border-radius: 5px;
+  display: inline-block;
+  background-color:#ffffff;
+}
+
+.project {
+ width: 80%;
+ position: relative;
+ float: left;
+ background-color: #ffffff;
+ max-width: 800px;
+ margin: 40px;
+}
+
+.project img {
+  width: 90%;
+  max-width: 700px;
+}

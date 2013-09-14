@@ -11,3 +11,7 @@ get '/publet' do
   erb :publet
 end
 
+get '/sunset' do
+	erb :sunset
+end
+

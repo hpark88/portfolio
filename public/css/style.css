@@ -1,5 +1,7 @@
+@import url(http://fonts.googleapis.com/css?family=Playfair+Display|BenchNine|Istok+Web|Bubbler+One|Roboto+Slab:300|Sansita+One|Abril+Fatface);
+
 body {
-  background-color:#ecd0ad;
+  background-color:#9d8f79;
 }
 
 a {
@@ -12,46 +14,57 @@ a:hover {font-weight: bold;}
 a:active {text-decoration:underline;}
 
 .sidenav {
-  position: relative;
-  border-radius: 5px;
+  position: fixed;
   color: #806a4b;
   float: left;
-  height: 800px;
-  width: 150px;
+  height: 100%;
+  width: 108px;
   background-color:#ffffff;
   margin: 0 10px 0 0;
   font-family: Arial;
-  font-size: 15px;
+  font-size: 12px;
 }
 
 .sidenav img {
   position: relative;
-  width: 150px;
   margin-top: 16px;
 }
 .sidenavtwo {
   width: 80%;
   position: relative;
-  border-radius: 5px;
   display: inline-block;
   background-color:#ffffff;
+  margin-left: 130px;
+  height: 100%;
 }
 
 .intro {
-border-radius: 5px;
 position: relative;
 float: top;
 background-color: #ffffff;
 width: 80%;
-height: 500px;
-margin-left: 160px;
+margin-left: 130px;
+margin-right: 160px;
+display: inline-block;
+}
+
+#introparagraph {
+  margin: 40px 400px 40px 40px;
+  font-family: 'Istok web', serif;
+  color: black;
+}
+
+#paragraph {
+  font-family: 'Istok web', serif;
+  font-size: 16px;
+  color: #302827;
 }
 
 .column {
   border-radius: 5px;
   background-color:white;
   height: 380px;
-  width: 300px;
+  width: 230px;
   margin: 16px;
   float: left;
   font-family: Helvetica;
@@ -60,8 +73,8 @@ margin-left: 160px;
 }
 
 .column img {
-  width: 300px;
-  height: 210px;
+  width: 230px;
+  height: 150px;
 }
 
 
@@ -78,14 +91,27 @@ h1 {
   font-size: 18px;
 }
 
+h2 {
+  color: #302e2a;
+  font-family: 'Istok web', sans-serif;
+}
+
 ul {
   font-family: Arial;
 }
 
 li {
+  
   font-family: Arial;
-   font-size: 13px;
+  font-size: 13px;
   color: #8c725b;
+}
+
+#sidenav {
+  list-style: none;
+  font-size: 11.5px;
+  margin-left: 0;
+  padding: 0 15px;
 }
 
 .project {
@@ -100,7 +126,9 @@ li {
 
 .project img {
   max-width: 700px;
-  display: inline-block;
+  width: 80%;
+  display: inline-block
+  position: relative;
 }
 
 #date {

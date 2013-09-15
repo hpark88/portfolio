@@ -1,7 +1,5 @@
+require 'rubygems'
 require 'sinatra'
-require 'sinatra/reloader'
-require 'sinatra/activerecord'
-require 'haml'
 
 get "/" do
   erb :index
@@ -15,3 +13,14 @@ get '/sunset' do
 	erb :sunset
 end
 
+get '/agnitus' do
+  erb :agnitus
+end
+
+get '/daydream' do
+	erb :daydream
+end
+
+get '/geni' do
+	erb :daydream
+end

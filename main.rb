@@ -22,5 +22,5 @@ get '/daydream' do
 end
 
 get '/geni' do
-	erb :daydream
+	erb :geni
 end

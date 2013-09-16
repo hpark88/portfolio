@@ -1,7 +1,7 @@
 @import url(http://fonts.googleapis.com/css?family=Playfair+Display|BenchNine|Istok+Web|Bubbler+One|Roboto+Slab:300|Sansita+One|Abril+Fatface);
 
 body {
-  background-color:#9d8f79;
+  background-color:#ffffff;
 }
 
 a {
@@ -48,8 +48,8 @@ display: inline-block;
 }
 
 #introparagraph {
-  margin: 40px 20% 40px 40px;
-  font-family: 'Istok web', serif;
+  margin: 80px 20% 40px 40px;
+  font-family: 'Garamond', serif;
   color: black;
 }
 
@@ -76,7 +76,9 @@ display: inline-block;
   height: 150px;
 }
 
-
+#illustration {
+  text-align: center;
+}
 
 p {
   font-family: Arial;
@@ -106,11 +108,17 @@ li {
   color: #8c725b;
 }
 
+#sidenav li {
+  font-family: Istok web;
+  color: #8c725b;
+}
+
 #sidenav {
   list-style: none;
   font-size: 11.5px;
   margin-left: 0;
   padding: 0 15px;
+
 }
 
 .project {
